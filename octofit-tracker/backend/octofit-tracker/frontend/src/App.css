@@ -1,0 +1,115 @@
+
+body {
+  background: linear-gradient(135deg, #f0f4f9 0%, #e0e7ef 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%) !important;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.navbar-brand img {
+  border-radius: 8px;
+  background: #fff;
+  padding: 2px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:focus {
+  color: #ffd700 !important;
+}
+
+/* Headings */
+h1, .display-4 {
+  color: #1e3c72;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+h5, .card-title {
+  color: #2a5298;
+}
+
+/* Table */
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.06);
+}
+.table thead {
+  background: #2a5298;
+  color: #fff;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #f0f4f9;
+}
+.table-bordered th, .table-bordered td {
+  border-color: #2a5298;
+}
+
+/* Buttons */
+.btn-primary, .btn-success, .btn-outline-secondary {
+  border-radius: 24px;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+}
+.btn-primary {
+  background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+  border: none;
+}
+.btn-success {
+  background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+  border: none;
+}
+.btn-outline-secondary {
+  color: #2a5298;
+  border-color: #2a5298;
+}
+.btn-outline-secondary:hover {
+  background: #2a5298;
+  color: #fff;
+}
+
+/* Links */
+a, .App-link {
+  color: #185a9d;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #43cea2;
+}
+
+/* Cards */
+.card {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 2px 12px rgba(44, 62, 80, 0.10);
+}
+.card-title {
+  font-weight: 600;
+}
+
+/* Modal */
+.modal-content {
+  border-radius: 16px;
+}
+.modal-header {
+  background: #2a5298;
+  color: #fff;
+  border-bottom: none;
+}
+.modal-footer {
+  border-top: none;
+}
+
+/* Custom Favicon (handled in public/index.html) */
